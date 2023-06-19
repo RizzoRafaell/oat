@@ -23,10 +23,14 @@ Infelizmente não sabiamos realizar o commit no github particionado em codigos, 
 
 Repartimos o nosso grupo em duas duplas, cada dupla se ajudou para montar uma parte do esquelo até unificarmos e formar o programa por completo para validação e correção de erros.
 
-As partes:
-pubspec.yaml, analysis_options.yaml, tela_menu.dart, screen_entrada e main.dart foi desenvolvido por Rafael Rizzo e Ismael de Sousa.
+Rafael Rizzo e Ismael Sousa ficaram responsaveis de encontrar uma API gratuita, realizar a integração nos codigos e fazer a detalhes_screen.dart.
+Foi utilizado a API: https://openweathermap.org/api (API de clima que consome os dados como temperatura, umidade, etc das cidades)
+Exemplo que usamos foi: https://www.youtube.com/watch?v=VS8EBgPwsSU
 
-As partes:
-tela_menu, menu_data, menu_item, itens_cardapio.json foi desenvolvido por João Pedro e Sergio Lucas.
+João Pedro e o Sergio Lucas ficaram responsaveis em realizar a home_screen.dart, main.dart, analysis_options.yaml, pubspeck.yaml.
 
-Neste projeto foi realizado uma pagina de entrada (screen_entrada)//foi criado esse nome porque ja tinhamos criado uma classe com TelaEntrada//, com um arquivo jpg importado da pasta assets/image na tela inteira com button para navegar entre as telas e ir para o cardapio, nele adicionamos um button no appbar para voltar a tela de entrada e tambem colocamos alguns itens no menu.
+
+O final do projeto ficou tela principal (home_screen.dart), segunda tela (detalhes_screen.dart) e consumindo dados da API (OpenWeatherMap)
+
+obs; não foi definido uma tela ou mensagem para erro quando coloca uma cidade que não existe.
+
